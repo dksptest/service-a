@@ -18,12 +18,9 @@ links:
     type: 'DASHBOARD'
     url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
 relationships: {}
-tags:
-    - "cashback microservice"
-    - "offer"
-    - "shopping"
 labels:
   - 'source:github'
+  - "domain:shopping"
 customFields: null
 
 # Learn more about formatting compass.yml:
