@@ -1,0 +1,13 @@
+name: "Service A"
+type: service
+description: "Microserviço para rastreamento de APIs e disponibilização de dados."
+links:
+  - name: "GitHub Repository"
+    url: "https://github.com/davidksp/service-a"
+  - name: "Confluence Documentation"
+    url: "https://confluence.example.com/microservices/crawler"
+dependencies:
+  - name: "DynamoDB"
+  - name: "Airflow Scheduler"
+owner:
+  team: "Data Engineering Team"
