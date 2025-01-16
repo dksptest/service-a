@@ -20,7 +20,8 @@ links:
 relationships: {}
 labels:
   - 'source:github'
-  - "domain:shopping"
+  - 'domain:shopping'
+  - 'language:java'
 customFields: null
 
 # Learn more about formatting compass.yml:
