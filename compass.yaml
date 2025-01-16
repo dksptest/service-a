@@ -10,6 +10,9 @@ links:
   - name: null
     type: REPOSITORY
     url: 'https://github.com/dksptest/service-a'
+  - name: 'slack channel'
+    type: 'CHAT_CHANNEL'
+    url: 'https://dksptest.slack.com/archives/C088YHHE04D'
 relationships: {}
 labels:
   - 'source:github'
