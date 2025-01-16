@@ -1,13 +1,19 @@
-name: "Service A"
-type: service
-description: "Microserviço para rastreamento de APIs e disponibilização de dados."
+name: service-a
+id: 'ari:cloud:compass:a491c0a6-f2a4-4f94-9848-e40bbd88cb59:component/d091f13f-606e-4ff1-85c2-de4af1820875/396dbbc4-5110-4fe3-80d7-76a4efdb6f72'
+description: null
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
 links:
-  - name: "GitHub Repository"
-    url: "https://github.com/davidksp/service-a"
-  - name: "Confluence Documentation"
-    url: "https://confluence.example.com/microservices/crawler"
-dependencies:
-  - name: "DynamoDB"
-  - name: "Airflow Scheduler"
-owner:
-  team: "Data Engineering Team"
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/dksptest/service-a'
+relationships: {}
+labels:
+  - 'source:github'
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
