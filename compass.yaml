@@ -13,6 +13,9 @@ links:
   - name: 'slack channel'
     type: 'CHAT_CHANNEL'
     url: 'https://dksptest.slack.com/archives/C088YHHE04D'
+  - name: 'observability Dashboard'
+    type: 'DASHBOARD'
+    url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
 relationships: {}
 labels:
   - 'source:github'
