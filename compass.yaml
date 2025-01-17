@@ -1,28 +1,37 @@
-name: service-a
-id: 'ari:cloud:compass:a491c0a6-f2a4-4f94-9848-e40bbd88cb59:component/d091f13f-606e-4ff1-85c2-de4af1820875/396dbbc4-5110-4fe3-80d7-76a4efdb6f72'
-description: 'tracking microservice'
-configVersion: 1
-typeId: SERVICE
-ownerId: 'ari:cloud:identity::team/42f0fa61-98d3-4890-9306-0e476e32d819'
-fields:
-  tier: 1
-  lifecycle: 'Pre-release'
-links:
-  - name: null
-    type: REPOSITORY
-    url: 'https://github.com/dksptest/service-a'
-  - name: 'slack channel'
-    type: 'CHAT_CHANNEL'
-    url: 'https://dksptest.slack.com/archives/C088YHHE04D'
-  - name: 'observability Dashboard'
-    type: 'DASHBOARD'
-    url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
-relationships: {}
-labels:
-  - 'source:github'
-  - 'domain:shopping'
-  - 'language:java'
-customFields: null
+components:
+  - name: service-a
+    id: 'ari:cloud:compass:a491c0a6-f2a4-4f94-9848-e40bbd88cb59:component/d091f13f-606e-4ff1-85c2-de4af1820875/396dbbc4-5110-4fe3-80d7-76a4efdb6f72'
+    description: 'tracking microservice'
+    configVersion: 1
+    typeId: SERVICE
+    ownerId: 'ari:cloud:identity::team/42f0fa61-98d3-4890-9306-0e476e32d819'
+    fields:
+      tier: 1
+      lifecycle: 'Pre-release'
+  links:
+    - name: null
+      type: REPOSITORY
+      url: 'https://github.com/dksptest/service-a'
+    - name: 'slack channel'
+      type: 'CHAT_CHANNEL'
+      url: 'https://dksptest.slack.com/archives/C088YHHE04D'
+    - name: 'observability Dashboard'
+      type: 'DASHBOARD'
+      url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
+  relationships: {}
+  labels:
+    - 'source:github'
+    - 'domain:shopping'
+    - 'language:java'
+  customFields: null
 
-# Learn more about formatting compass.yml:
-# https://go.atlassian.com/compass-yml-format
+  - name: OfferTable
+    description: 'offer dynamoDB table'
+    configVersion: 1
+    typeId: CLOUD_RESOURCE
+    ownerId: 'ari:cloud:identity::team/42f0fa61-98d3-4890-9306-0e476e32d819'
+    fields:
+      tier: 1
+      lifecycle: 'Pre-release'
+  
+
