@@ -1,5 +1,5 @@
 name: OfferTable
-description: 'offer dynamoDB table'
+description: 'NEW offer dynamoDB table'
 configVersion: 1
 typeId: CLOUD_RESOURCE
   ownerId: 'ari:cloud:identity::team/42f0fa61-98d3-4890-9306-0e476e32d819'
