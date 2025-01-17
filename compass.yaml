@@ -18,7 +18,7 @@ links:
     type: DASHBOARD
     url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
   - name: 'Documentation'
-    type: DOCUMENTATION
+    type: DOCUMENT
     url: 'https://bptechnologies.atlassian.net/wiki/spaces/EBROKER/pages/85557250/CashbackOffers'
 relationships:
   DEPENDS_ON:
