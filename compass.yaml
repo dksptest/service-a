@@ -17,9 +17,7 @@ fields:
     - name: 'observability Dashboard'
       type: 'DASHBOARD'
       url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
-relationships:
-  DEPENDS_ON:
-    - 'ari:cloud:compass:a491c0a6-f2a4-4f94-9848-e40bbd88cb59:component/d091f13f-606e-4ff1-85c2-de4af1820875/e2cdacd5-d73f-4984-ab2a-e7a31276c042'
+relationships: {}
 labels:
   - 'source:github'
   - 'domain:shopping'
