@@ -8,22 +8,22 @@ components:
     fields:
       tier: 1
       lifecycle: 'Pre-release'
-  links:
-    - name: null
-      type: REPOSITORY
-      url: 'https://github.com/dksptest/service-a'
-    - name: 'slack channel'
-      type: 'CHAT_CHANNEL'
-      url: 'https://dksptest.slack.com/archives/C088YHHE04D'
-    - name: 'observability Dashboard'
-      type: 'DASHBOARD'
-      url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
-  relationships: {}
-  labels:
-    - 'source:github'
-    - 'domain:shopping'
-    - 'language:java'
-  customFields: null
+      links:
+        - name: null
+          type: REPOSITORY
+          url: 'https://github.com/dksptest/service-a'
+        - name: 'slack channel'
+          type: 'CHAT_CHANNEL'
+          url: 'https://dksptest.slack.com/archives/C088YHHE04D'
+        - name: 'observability Dashboard'
+          type: 'DASHBOARD'
+          url: 'https://app.axiom.co/bptech-mkzm/dashboards/kPS3BG3KlcbBwavczr'
+    relationships: {}
+    labels:
+      - 'source:github'
+      - 'domain:shopping'
+      - 'language:java'
+    customFields: null
 
   - name: OfferTable
     description: 'offer dynamoDB table'
@@ -34,4 +34,3 @@ components:
       tier: 1
       lifecycle: 'Pre-release'
   
-
