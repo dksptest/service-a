@@ -5,6 +5,5 @@ typeId: CLOUD_RESOURCE
 ownerId: 'ari:cloud:identity::team/42f0fa61-98d3-4890-9306-0e476e32d819'
 fields: {}
 labels: []
-links: []
 customFields: []
 relationships: {}
