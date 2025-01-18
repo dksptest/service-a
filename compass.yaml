@@ -30,4 +30,7 @@ labels:
   - 'source:github'
   - 'domain:shopping'
   - 'language:java'
-customFields: null
+customFields:
+  - name: platform
+    type: text
+    value: web
