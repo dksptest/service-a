@@ -30,3 +30,18 @@ labels:
   - 'source:github'
   - 'domain:shopping'
   - 'language:java'
+
+
+events:
+  produced:
+    - name: "OrderCreated"
+      description: "Triggered when a new order is created."
+      schema:
+        type: "json-schema"
+        url: "https://schema-registry.example.com/schemas/OrderCreated.json"
+      version: "1.0.0"
+      examples:
+        - '{"orderId": "12345", "status": "CREATED"}'
+      consumers:
+        - name: "Inventory Service"
+          description: "Updates stock levels."
