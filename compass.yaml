@@ -32,16 +32,20 @@ labels:
   - 'language:java'
 
 
-events:
-  produced:
-    - name: "OrderCreated"
-      description: "Triggered when a new order is created."
-      schema:
-        type: "json-schema"
-        url: "https://schema-registry.example.com/schemas/OrderCreated.json"
-      version: "1.0.0"
-      examples:
-        - '{"orderId": "12345", "status": "CREATED"}'
-      consumers:
-        - name: "Inventory Service"
-          description: "Updates stock levels."
+annotations:
+  compass.io/events:
+    produced:
+      - name: "OrderCreated"
+        description: "Triggered when a new order is created."
+        schema:
+          type: "json-schema"
+          url: "https://schema-registry.example.com/schemas/OrderCreated.json"
+        examples:
+          - '{"orderId": "12345", "status": "CREATED"}'
+      - name: "OrderCancelled"
+        description: "Triggered when an order is cancelled."
+        schema:
+          type: "json-schema"
+          url: "https://schema-registry.example.com/schemas/OrderCancelled.json"
+        examples:
+          - '{"orderId": "12345", "status": "CANCELLED"}'
